@@ -283,7 +283,7 @@ GameObject:
   m_Layer: 0
   m_Name: Spawner
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -298,7 +298,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1eb201898f53c4c66bb7a5e25f5e8b30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  go: {fileID: 1003860020768794, guid: 08d862db268d449eba23fb8c60d08b50, type: 2}
+  go: {fileID: 1916679703705606, guid: ad89c563b179c478f932706a7814fdb5, type: 2}
+  StartAfter: 1
+  SpawnFrequency: 0.3
 --- !u!4 &1237580050
 Transform:
   m_ObjectHideFlags: 0
