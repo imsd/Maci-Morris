@@ -5,7 +5,7 @@ using UnityEngine;
 public class InteractionCube : MonoBehaviour {
 
 	public Renderer rend;
-	//public Vector3 myRotation;
+	public Vector3 myRotation;
 
 	public GameObject go; 
 
@@ -13,16 +13,16 @@ public class InteractionCube : MonoBehaviour {
 	void Start () {
 		rend = GetComponent<Renderer> ();
 
-	
-
 	for (int i = 0; i < 6; i++) {
 		Vector3 myVec = new Vector3 (i - 5, 2, 0);
 
 		Instantiate (go, myVec, Quaternion.identity);
 	   }
 	}
+
 	void OnMouseEnter(){
 		rend.material.color = Color.red;
+		transform.Rotate (myRotation * Time.deltaTime);
 	}
 
 	void OnMouseExit(){
@@ -33,8 +33,8 @@ public class InteractionCube : MonoBehaviour {
 		//scale objects over three axiss
 		transform.localScale += new Vector3 (.001f, .01f, .02f);
 	}
-		void Update(){
-		//transform.Rotate ((0, 2, 2) * Time.deltaTime);	
+		
+	void Update(){
 	}
   
 }
