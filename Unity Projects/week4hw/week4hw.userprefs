@@ -1,0 +1,22 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/collision.cs">
+    <Files>
+      <File FileName="Assets/scripts/activate.cs" Line="27" Column="6" />
+      <File FileName="Assets/scripts/iteration.cs" Line="1" Column="1" />
+      <File FileName="Assets/scripts/InteractionCube.cs" Line="1" Column="1" />
+      <File FileName="Assets/scripts/Keyboardleftright.cs" Line="1" Column="1" />
+      <File FileName="Assets/scripts/Keyboardgeneral.cs" Line="1" Column="1" />
+      <File FileName="Assets/scripts/Spawn.cs" Line="1" Column="1" />
+      <File FileName="Assets/scripts/mouseStuff.cs" Line="1" Column="1" />
+      <File FileName="Assets/scripts/projectilemouse.cs" Line="31" Column="2" />
+      <File FileName="Assets/scripts/Mousemovement.cs" Line="1" Column="1" />
+      <File FileName="Assets/scripts/activatered.cs" Line="1" Column="1" />
+      <File FileName="Assets/scripts/collision.cs" Line="13" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
