@@ -1,1 +1,4 @@
-sceneSetups: []
+sceneSetups:
+- path: Assets/scenes/1stproject.unity
+  isLoaded: 1
+  isActive: 1
