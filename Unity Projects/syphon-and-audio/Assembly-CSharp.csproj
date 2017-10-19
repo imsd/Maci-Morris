@@ -54,7 +54,9 @@
      <Compile Include="Assets\AudioProcessor.cs" />
      <Compile Include="Assets\BeatExample.cs" />
      <Compile Include="Assets\Funnel\Funnel.cs" />
+     <Compile Include="Assets\inputScript.cs" />
      <Compile Include="Assets\iteration.cs" />
+     <Compile Include="Assets\ReactToVolume.cs" />
      <Compile Include="Assets\spawner.cs" />
      <None Include="Assets\Funnel\Shader\Gamma.shader" />
  <Reference Include="UnityEngine.UI">

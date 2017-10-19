@@ -16,7 +16,7 @@ public class iteration : MonoBehaviour {
 		// 2nd: the condition, is i less than 10?
 		// 3rd: execute the code in between the curly bracks if 2 is true
 		// 4th: increment the index number
-		for (int i = 0; i < 10; i++) {
+		for (int i = 0; i < 1000; i++) {
 
 			// creating a new vector3 based on the index number
 			Vector3 myVec = new Vector3(i-5,2,0);

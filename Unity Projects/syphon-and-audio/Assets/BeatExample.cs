@@ -13,9 +13,14 @@ public class BeatExample : MonoBehaviour
 	public float movementspeed = 0.5f;
 //	public GameObject go;
 
+	Vector3 startingPos;
+
 
 	void Start ()
 	{
+
+		// keep track of where we started
+		startingPos = transform.position;
 
 		// at start, get the Renderer component of this object
 		// and set it to rend
@@ -31,9 +36,14 @@ public class BeatExample : MonoBehaviour
 	//this event will be called every time a beat is detected.
 	//Change the threshold parameter in the inspector
 	//to adjust the sensitivity
-	void update() {
+	void Update() {
 
 		//Vector3 myvec = new Vector3(xposition,yposition,zposition);
+
+		if (Input.GetKeyDown ("r")) {
+			transform.position = startingPos;
+			Debug.Log ("!");
+		}
 
 	}
 	void onOnbeatDetected ()
