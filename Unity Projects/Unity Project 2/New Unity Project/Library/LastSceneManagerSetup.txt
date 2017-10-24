@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Unity Project 2- projection mapping.unity
+  isLoaded: 1
+  isActive: 1
