@@ -13,6 +13,7 @@ public class arrayStringExample1 : MonoBehaviour {
 	public string[] verbs;
 	public string[] names2; 
 	public string[] adjective; 
+	public string[] quotes;
 
 	void Start () {
 	// loop thru all the names
@@ -31,6 +32,7 @@ public class arrayStringExample1 : MonoBehaviour {
 	int randVerbs = Random.Range(0, verbs.Length);
 	int randNames2 = Random.Range(0, names2.Length); 
 	int randAdj = Random.Range(0, adjective.Length);
+	int randQuo = Random.Range (0, quotes.Length);
 
 	string line1 = "One day, " + names[randNames] + " went to the " +
 		            places[randPlace] + "." + 
@@ -39,15 +41,12 @@ public class arrayStringExample1 : MonoBehaviour {
 		            verbs[randVerbs] + " " + 
 		            nouns[randNoun] + "." + 	
 		            "After freaking out " + names[randNames] +
-		            " yelled. Bro are you " + names[randNames];
+		            " yelled. Bro are you " + adjective[randAdj]; 
+	               +"! " + names2 [randNames2] + " replied, " + quotes[randQuo] 
+	               +  "Yes, I am. " + quotes[randQuo] ;
 
+	Debug.Log (line1); 
 
-
-
-
-
-
-		Debug.Log (line1); 
 
 	}
 
