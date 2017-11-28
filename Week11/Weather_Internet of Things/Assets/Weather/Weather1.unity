@@ -139,8 +139,8 @@ MonoBehaviour:
   HeavyRain: {fileID: 1163687536384082, guid: c7ad6c105ef504c5494d14d594fc0517, type: 2}
   LightCloud: {fileID: 1478567354}
   HeavyCloud: {fileID: 1433234183}
-  Hail: {fileID: 849883313}
-  Snowfall: {fileID: 881234218}
+  Hail: {fileID: 0}
+  Snowfall: {fileID: 0}
   url: https://www.metaweather.com/api/location/2459115/
 --- !u!4 &31285010
 Transform:
@@ -1587,7 +1587,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7dda9d9818494343ae67687567e4d3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RainDrop: {fileID: 1502523144934930, guid: 3347326a865c04fdcbf8fe776eb094a3, type: 2}
+  RainDrop: {fileID: 1964135088764522, guid: 16fe34cc8c9f8434ab384dc32be1aa40, type: 2}
   RainDropFrequency: 0.1
   DropMultiplier: 1
   DropRadius: 5
@@ -1688,7 +1688,7 @@ GameObject:
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &881234219
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1700,7 +1700,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7dda9d9818494343ae67687567e4d3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RainDrop: {fileID: 1359799677723674, guid: aa0fa3323560645c3bc4bf18f56a5eb3, type: 2}
+  RainDrop: {fileID: 1842129205488330, guid: a1eb76f65dde944169ef86b8a2ce1321, type: 2}
   RainDropFrequency: 0.1
   DropMultiplier: 1
   DropRadius: 5
@@ -2124,6 +2124,50 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1094978430}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1136431589
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1136431591}
+  - component: {fileID: 1136431590}
+  m_Layer: 0
+  m_Name: Sleet
+  m_TagString: Untagged
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1136431590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1136431589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7dda9d9818494343ae67687567e4d3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RainDrop: {fileID: 1502523144934930, guid: 3347326a865c04fdcbf8fe776eb094a3, type: 2}
+  RainDropFrequency: 0.1
+  DropMultiplier: 5
+  DropRadius: 5
+--- !u!4 &1136431591
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1136431589}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 6, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1192819630
 GameObject:
   m_ObjectHideFlags: 0
@@ -2452,6 +2496,50 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1233978770}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1308646042
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1308646044}
+  - component: {fileID: 1308646043}
+  m_Layer: 0
+  m_Name: Thunderstorm
+  m_TagString: Untagged
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1308646043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1308646042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7dda9d9818494343ae67687567e4d3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RainDrop: {fileID: 1163687536384082, guid: c7ad6c105ef504c5494d14d594fc0517, type: 2}
+  RainDropFrequency: 0.1
+  DropMultiplier: 15
+  DropRadius: 5
+--- !u!4 &1308646044
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1308646042}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 6, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1379751558
 GameObject:
   m_ObjectHideFlags: 0
@@ -2534,6 +2622,50 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1379751558}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1386330406
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1386330408}
+  - component: {fileID: 1386330407}
+  m_Layer: 0
+  m_Name: Showers
+  m_TagString: Untagged
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1386330407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1386330406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7dda9d9818494343ae67687567e4d3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RainDrop: {fileID: 1163687536384082, guid: c7ad6c105ef504c5494d14d594fc0517, type: 2}
+  RainDropFrequency: 0.1
+  DropMultiplier: 5
+  DropRadius: 5
+--- !u!4 &1386330408
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1386330406}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 6, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1426032523
 GameObject:
   m_ObjectHideFlags: 0
@@ -2631,7 +2763,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1478567354}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -17.50617, y: -3.214631, z: 5.110952}
+  m_LocalPosition: {x: -17.50617, y: -3.214631, z: 4.755}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 133456202}
