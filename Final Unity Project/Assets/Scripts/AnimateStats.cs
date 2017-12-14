@@ -70,15 +70,21 @@ public class AnimateStats : MonoBehaviour {
 
 		// do something with the text display
 		// convert the Proportion (zero to one) to a percentage (0 to 100)
-		int Percentage = (int)Mathf.Round((Proportion * 100));
+		int Percentage = (int)Mathf.Round((Proportion * 28));
 		// clamp it so it doesnt exceed 100
-		Percentage = Mathf.Clamp (Percentage, 0, 100);
+		Percentage = Mathf.Clamp (Percentage, 0, 28);
 		// add a % symbol on the end
 		string PercentageString = Percentage.ToString() + "%";
 		// set the display text to that value
 		DisplayText1.text = PercentageString;
 		DisplayText2.text = PercentageString;
-		DisplayText3.text = PercentageString;
 		DisplayText4.text = PercentageString;
+
+		int Percentagee = (int)Mathf.Round((Proportion * 30));
+		Percentagee = Mathf.Clamp (Percentagee, 0, 30);
+		string PercentageeString = Percentagee.ToString() + "%";
+		DisplayText3.text = PercentageeString;
+
+		
 	}
 }
